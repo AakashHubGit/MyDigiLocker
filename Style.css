@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(255, 194, 194);
+}
+
+/* Navbar */
+
+#Navbh{
+    border: 2px solid black;
+    background-color: #ff3131;
+}
+
+#Navbulh{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.Navblih{
+    list-style: none;
+    padding: 15px 0px;
+}
+
+.Navblih a{
+    text-decoration: none;
+    padding: 16px 40px;
+    padding-top: 15px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.Navblih a:hover{
+    background-color: #f77171;
+}
+
+.Navblih a:current{
+    color: black;
+}
+
